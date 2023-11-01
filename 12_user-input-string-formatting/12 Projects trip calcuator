@@ -1,0 +1,11 @@
+#trip calculator
+destination = str(input("where are you going?"))
+kilometer = float (input("enter km:"))
+gas = float (input("enter gas:"))
+cost = float (input("enter cost for hotel, food etc a day:"))
+days = int(input("enter number of days you are staying:"))
+
+A = kilometer * gas + cost
+B = A * days
+print(f"the total cost for your vacation is:{A+B}")
+ 
